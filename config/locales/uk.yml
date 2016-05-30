@@ -1,0 +1,679 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+### TODO change value for "words_connector"
+
+uk:
+  support:
+    array:
+      words_connector: ", "
+  datetime:
+    distance_in_words:
+      half_a_minute: "менше хвилини"
+      less_than_x_seconds:
+        one: "менше 1 секунди"
+        other: "менше %{count} секунд"
+      x_seconds:
+        one: "1 секунда"
+        other: "%{count} секунди"
+      less_than_x_minutes:
+        one: "менше хвилини"
+        other: "менше %{count} хвилин"
+      x_minutes:
+        one: "1 хвилина"
+        other: "%{count} хвилини"
+      about_x_hours:
+        one: "близько 1 години"
+        other: "близько %{count} годин"
+      x_days:
+        one: "1 день"
+        other: "%{count} дня"
+      about_x_months:
+        one: "близько 1 місяца"
+        other: "близько %{count} місяців"
+      x_months:
+        one: "1 місяць"
+        other: "%{count} місяці"
+      about_x_years:
+        one: "близько 1 року"
+        other: "близько %{count} років"
+      over_x_years:
+        one: "більше 1 року"
+        other: "більше %{count} років"
+      almost_x_years:
+        one: "майже 1 рік"
+        other: "майже %{count} роки"
+    prompts:
+      year: "Рік"
+      month: "Місяць"
+      day: "День"
+      hour: "Годин"
+      minute: "Хвилин"
+      second: "Секунд"
+  date:
+    formats:
+      default: "%d.%m.%Y"
+      long: "%d.%m.%Y"
+    abbr_day_names:
+    - нд.
+    - пн.
+    - вт.
+    - ср.
+    - чт.
+    - пт.
+    - сб.
+    abbr_month_names:
+    -
+    - січ.
+    - лют.
+    - бер.
+    - квіт.
+    - трав.
+    - черв.
+    - лип.
+    - серп.
+    - вер.
+    - жовт.
+    - лист.
+    - груд.
+    day_names:
+    - неділя
+    - понеділок
+    - вівторок
+    - середа
+    - четвер
+    - п'ятниця
+    - субота
+    month_names:
+    -
+    - Січня
+    - Лютого
+    - Березня
+    - Квітня
+    - Травня
+    - Червня
+    - Липня
+    - Серпня
+    - Вересня
+    - Жовтня
+    - Листопада
+    - Грудня
+
+# ActiveScaffold localization
+  active_scaffold:
+    add: 'Добавить запись'
+    add_existing: 'Добавить существующую запись'
+    add_existing_model: '%{model}: добавить существующую запись'
+    apply: 'Зберегти'
+    are_you_sure_to_delete: 'Видалити %{label}?'
+    cancel: 'Відмінити'
+    click_to_edit: 'Нажмите для редактирования'
+    click_to_reset: 'Скинути'
+    close: 'Закрити'
+    config_list: 'Настройки списка'
+    config_list_model: '%{model}: настройки списка'
+    create: 'Створити'
+    create_model: '%{model}: створити'
+    create_another: 'Створити'
+    created_model: '%{model}: запись создана'
+    create_new: 'Створити'
+    customize: 'Настроить'
+    delete: 'Видалити'
+    deleted_model: '%{model}: запись удалена'
+    delimiter: 'Разделитель'
+    download: 'Загрузить'
+    edit: 'Редагувати'
+    export: 'Экспорт'
+    nested_for_model: '%{parent_model} / %{nested_model}'
+    nested_of_model: '%{nested_model} @ %{parent_model}'
+    'false': 'Ні'
+    filtered: '(Знайдено)'
+    found:
+      one: 'запис'
+      few: 'записів'
+      many: 'записів'
+      other: 'записів'
+    hide: 'Сховати'
+    inplace_edit_handle: '--'
+    live_search: 'Поиск'
+    loading: 'Загрузка…'
+    mark_all_records: "Отметить все"
+    next: 'Наступні'
+    no_entries: 'Нема записів'
+    no_options: 'Нет вариантов'
+    omit_header: 'Пропустить заголовок'
+    options: 'Настройки'
+    pdf: 'PDF'
+    previous: 'Попередні'
+    print: 'Печать'
+    records_marked:
+      one: "Отмечена 1 запись"
+      few: "Отмечено %{count} записи"
+      many: "Отмечено %{count} записей"
+      other: "Отмечено %{count} записи"
+    refresh: 'Обновить'
+    remove: 'Видалити'
+    remove_file: 'Удалить или заменить файл'
+    replace_existing: 'Змінити існуючим значенням'
+    replace_with_new: 'Замінити  новим значенням'
+    revisions_for_model: '%{model}: редакции'
+    reset: 'Скинути'
+    saving: 'Збереження…'
+    search: 'Пошук'
+    search_terms: 'Ключевые слова'
+    _select_: '- вибрати -'
+    show: 'Показати'
+    show_model: '%{model}: показать запись'
+    _to_ : ' to '
+    'true': 'Так'
+    update: 'Поновити'
+    update_model: '%{model}: поновити'
+    updated_model: '%{model}: запис поновлено'
+    '=': '='
+    '>=': '>='
+    '<=': '<='
+    '>': '>'
+    '<': '<'
+    '!=': '!='
+    between: 'В інтервалі'
+    contains: 'Містить'
+    begins_with: 'Починається з'
+    ends_with: 'Закінчується на'
+    today: 'Сьогодні'
+    yesterday: 'Вчора'
+    tomorrow: 'Завтра'
+    this_week: 'На цьому тижні'
+    prev_week: 'На попередньому тижні'
+    next_week: 'На слідуючому тижні'
+    this_month: 'В цьому місяці'
+    prev_month: 'В попередньому місяці'
+    next_month: 'В слідуючому місяці'
+    this_year: 'В цьому році'
+    prev_year: 'В попередньому році'
+    next_year: 'В слідуючому році'
+    past: 'Прошедшие'
+    future: 'Будущие'
+    range: 'Інтервал'
+    seconds: 'секунд'
+    minutes: 'хвилин'
+    hours: 'годин'
+    days: 'днів'
+    weeks: 'тижнів'
+    months: 'місяців'
+    years: 'лет'
+    optional_attributes: 'Дополнительные настройки'
+    :null: 'Пусто'
+    not_null: 'Не пусто'
+    date_picker_options:
+      weekHeader: 'Нед.'
+      firstDay: 1
+      isRTL: false
+      showMonthAfterYear: false
+
+    datetime_picker_options:
+
+    human_conditions:
+      boolean: "%{column} = %{value}"
+      association: "%{column} = %{value}"
+
+    errors:
+      template:
+        header:
+          one: '%{model}: зберегти не вдалося через %{count} помилку'
+          few: '%{model}: зберегти не вдалося через %{count} помилки'
+          many: '%{model}: зберегти не вдалося через %{count} помилок'
+          other: '%{model}: зберегти не вдалося через %{count} помилок'
+        body: 'Проблеми виникли через слідуючі поля:'
+
+    # error_messages
+    cant_destroy_record: 'Запись %{record} не может быть удалена'
+    internal_error: '500 Внутрішня помилка сервера'
+    version_inconsistency: 'Эта запись была обновлена с того момента, как вы начали ее редактировать'
+    record_not_saved: 'Запись не может быть сохранена из-за неизвестной ошибки'
+    no_authorization_for_action: 'Нет прав на выполнение действия "%{action}"'
+
+  record_select:
+    next: "Наступні"
+    next_items: "Наступні %{count}"
+    previous: "Попередні"
+    previous_items: "Попередні %{count}"
+    records_found:
+      one: "1 знайдено"
+      other: "%{count} знайдено"
+
+  activerecord:
+    models:
+      donor: "Донори"
+      visit: "Кроводачі"
+      visitation: "Відвідання"
+      isolation: "Карантинізація"
+      donor_document: "Документи"
+      donor_defect: "Браки"
+      skin: "Відведені пацієнти"
+      reception: "Місце прийому"
+      receptions: "Місце прийому"
+      doctor_test: "Лікар клінічної лабораторії"
+      doctor_tests: "Лікар клінічної лабораторії"
+      doctor_aid: "Лікар СПІД лабораторії"
+      doctor_aids: "Лікар СПІД лабораторії"
+      defect_skin: "Діагноз відведених пацієнтів"
+      target_someone: "За кого"
+      org_address: "Адреса організації"
+      send_dep: "Відділ організації"
+      doctor_donation: "Відповідальний за кроводачу"
+      doc: "Вид документа"
+      donation_type: "Вид забору крові"
+      donation_mode: "Вид кроводачі"
+      type_packing: "Вид упаковки"
+      blood_group: "Група крові"
+      cat_donor: "Категорія донора"
+      send_org: "Ким направлений"
+      org_donate: "Ким направлений(ВПК)"
+      rh_control: "Контроль +/-"
+      country: "Країна"
+      blood_for: "Кров придатна"
+      doctor_skin: "Лікар-дерматовенеролог"
+      doctor_therapist: "Лікар-терапевт"
+      target: "Мета звернення"
+      village: "Населений пункт"
+      doctor_chief: "Начальник відділу"
+      region: "Область"
+      org_reception: "Організація котра заповнила картку"
+      defect_org: "Організація яка забракувала"
+      defect_cause: "Причина відбраковки"
+      reg_name: "ПІБ реєстратора"
+      district: "Район"
+      rh_factor: "Резус фактор"
+      hla_factor: "HLA фактор"
+      org_inspect: "Організація яка дообстежувала"
+      dictionary: "Довідник"
+      dictionaries: "Довідники"
+    attributes:
+      donor_defect:
+        donor_id: "Донор"
+        defect_org_id: "Організація яка забракувала"
+        defect_date: "Початок браку"
+        defect_end: "Кінець браку"
+        defect_cause_id: "Причина браку"
+      donor_document:
+        donor_id: "Донор"
+        doc_id: "Вид документа"
+        serial_doc: "Серія"
+        number_doc: "Номер"
+        date_doc: "Дата видачі"
+        org_doc: "Ким видано"
+      skin:
+        last_name: "Фамілія"
+        first_name: "Ім`я"
+        middle_name: "По батькові"
+        birth_date: "Дата народження"
+        post_code: "Індекс"
+        country_id: "Країна"
+        country: "Країна"
+        region_id: "Регіон(область)"
+        region: "Регіон(область)"
+        district_id: "Район"
+        district: "Район"
+        village_id: "Населений пункт"
+        village: "Населений пункт"
+        address: "Адреса"
+        defect_skin_id: "Діагноз"
+        date_dermis_begin: "Початок обліку"
+        date_dermis_end: "Кінець обліку"
+        reg_name_id: "ПІБ реєстратора"
+        reg_name: "ПІБ реєстратора"
+        defect_org_id: "Організація яка забракувала"
+        defect_org: "Організація яка забракувала"
+      donor:
+        donor_documents: "Документи"
+        donor_defects: "Браки"
+        visits: "Кроводачі"
+        visitations: "Відвідання"
+        reg_name_id: "ПІБ реєстратора"
+        reg_name: "ПІБ реєстратора"
+        job: "Посада"
+        work: "Місце роботи"
+        address: "Адреса"
+        village_id: "Населений пункт"
+        village: "Населений пункт"
+        type_village: "місто/село"
+        district_id: "Район"
+        district: "Район"
+        region_id: "Регіон(область)"
+        region: "Регіон(область)"
+        country_id: "Країна"
+        country: "Країна"
+        post_code: "Індекс"
+        birth_date: "Дата народження"
+        gender: "чоловік/жінка"
+        rh_factor_id: "+/-"
+        rh_factor: "+/-"
+        blood_group_id: "Група крові"
+        blood_group: "Група крові"
+        code_org: "Код організації де зареєстрований"
+        visit_date: "Дата відвідання"
+        reg_date: "Дата реєстрації донора"
+        card_number: "Номер картки донора"
+        org_donate_id: "Місце прийому"
+        org_donate: "Місце прийому"
+        doctor_chief_id: "ПІБ зав.відділом реєстратора"
+        doctor_chief: "ПІБ зав.відділом реєстратора"
+        hla_factor_id: "Kell фактор"
+        hla_factor: "Kell фактор"
+        tel_home: "Тел.домашній"
+        tel_work: "Тел.робочий"
+        last_name: "Фамілія"
+        first_name: "Ім`я"
+        middle_name: "По батькові"
+        cat_donor_id: "Категорія донора"
+        cat_donor: "Категорія донора"
+        last_visit_day: ""
+        villages_send: "Населений пункт звідки направлений"
+        deps_send: "Відділ організації звідки направлений"
+        orgs_send: "Організація яка направила"
+        someones_target: "Чи здавав за родича(іншу особу)"
+        ones_target: "Мета звернення"
+        causes_defect: "Причина відбраковки"
+      visit:
+        donor_id: "Донор"
+        reg_name_id: "ПІБ реєстратора"
+        job: "Посада"
+        work: "Місце роботи"
+        address: "Адреса"
+        village_id: "Населений пункт"
+        type_village: "місто/село"
+        district_id: "Район"
+        region_id: "Регіон(область)"
+        country_id: "Країна"
+        post_code: "Індекс"
+        birth_date: "Дата народження"
+        gender: "чоловік/жінка"
+        rh_factor_id: "+/-"
+        blood_group_id: "Група крові"
+        code_org: "Код організації де зареєстрований"
+        visit_date: "Дата відвідання"
+        reg_date: "Дата заповнення картки"
+        date_donation: "Дата кроводачі"
+        card_number: "Номер картки кроводачі"
+        org_reception_id: "Організація котра заповнила картку"
+        org_address_id: "Адреса організації котра заповнила картку"
+        reception_id: "Місце прийому донора"
+        send_village_id: "Населений пункт звідки направлений"
+        send_org_id: "Організація яка направила"
+        send_dep_id: "Відділ організації звідки направлений"
+        target_id: "Мета звернення"
+        type_payment: "безоплатно/платно"
+        target_someone_id: "Чи здавав за родича(іншу особу)"
+        blood_for_id: "Кров придатна"
+        type_donation: "Вид донорства"
+        donor_name: "ПІБ донора"
+        age: "Повні роки на момент звернення"
+        control_blood_id: "Контроль групи крові"
+        rh_control_id: "Контроль +/-"
+        hbs: "Гемоглобін"
+        analysis_date: "Дата проведення аналізу"
+        doctor_test_id: "ПІБ лікаря-лаборанта"
+        doctor_aid_id: "ПІБ лікаря-СПІД"
+        previous_date: "Дата попереднього давання крові"
+        previous_place: "Місце попереднього давання крові"
+        ill_hepatitis: "Хворів на гепатит?"
+        ill_tb: "Хворів на туберкульоз?"
+        ill_syphilis: "Хворів на сифіліс?"
+        ill_mal: "Хворів на малярію?"
+        operation: "Чи переносив операції?"
+        transfusion: "Чи переносив гемотрансфузії?"
+        infection: "Чи мав контакт з інф. хворими?"
+        dermis: "Перебував на обліку по шкірних захворюваннях?"
+        dermis_doctor: "Висновок лікаря-дерматовенеролога"
+        doctor_skin_id: "ПІБ лікаря-дерматовенеролога"
+        pulse: "Пульс"
+        sys_pressure: "верхній тиск"
+        dias_pressure: "нижній тиск"
+        allow_amount: "Дозволена доза для здачі"
+        therapist_doctor: "Висновок лікаря-терапевта"
+        doctor_therapist_id: "ПІБ лікаря-терапевта"
+        defect_cause_id: "Причина відбраковки"
+        doctor_donation_id: "ПІБ відповідального за кроводачу"
+        donation_mode_id: "Вид кроводачі"
+        donation_type_id: "Вид забору крові"
+        amount_probe: "Взято крові для дослідження"
+        amount_dose: "Взято, доза"
+        type_packing_id: "Вид упаковки"
+        bootle_number: "Номер флакона/контейнера"
+        inspect_bilirubin: "Обстеження на білірубін"
+        inspect_alt: "Обстеження на ALT"
+        inspect_syphilis: "Обстеження на A50(сифіліс)"
+        date_syphilis: "Дата обстеження на A50"
+        inspect_hep_c: "Обстеження на B17(гепатит С)"
+        date_hep_c: "Дата обстеження на B17"
+        inspect_hep_b: "Обстеження на B16(гепатит В)"
+        date_hep_b: "Дата обстеження на B16"
+        inspect_aids: "Обстеження на R75(СНІД)"
+        date_aids: "Дата обстеження на R75"
+        post_inspect_syphilis: "Дообстеження на A50"
+        post_date_syphilis: "Дата дообстеження на A50"
+        org_syphilis_id: "Хто проводив дообстеження на A50"
+        post_inspect_hep_c: "Дообстеження на B17"
+        post_date_hep_c: "Дата дообстеження на B17"
+        org_hep_c_id: "Хто проводив дообстеження на B17"
+        post_inspect_hep_b: "Дообстеження на B16"
+        post_date_hep_b: "Дата дообстеження на B16"
+        org_hep_b_id: "Хто проводив дообстеження на B16"
+        post_inspect_aids: "Дообстеження на R75"
+        post_date_aids: "Дата дообстеження на R75"
+        org_aids_id: "Хто проводив дообстеження на R75"
+      visitation:
+        card_number: "Номер картки відвідання"
+        reg_date: "Дата заповнення картки"
+        visit_date: "Дата відвідання"
+        code_org: "Код організації де зареєстрований"
+        blood_group_id: "Група крові"
+        rh_factor_id: "+/-"
+        gender: "чоловік/жінка"
+        birth_date: "Дата народження"
+        age: "Повні роки на момент звернення"
+        post_code: "Індекс"
+        country_id: "Країна"
+        region_id: "Регіон(область)"
+        district_id: "Район"
+        type_village: "місто/село"
+        village_id: "Населений пункт"
+        address: "Адреса"
+        work: "Місце роботи"
+        job: "Посада"
+        reg_name: "ПІБ реєстратора"
+        control_blood_id: "Контроль групи крові"
+        rh_control_id: "Контроль +/-"
+        donor_name: "ПІБ донора"
+        org_reception_id: "Організація котра заповнила картку"
+        org_address_id: "Адреса організації котра заповнила картку"
+        reception_id: "Місце прийому донора"
+        send_village_id: "Населений пункт звідки направлений"
+        send_org_id: "Організація яка направила"
+        send_dep_id: "Відділ організації звідки направлений"
+        target_id: "Мета звернення"
+        type_payment: "безоплатно/платно"
+        ill_hepatitis: "Хворів на гепатит?"
+        ill_tb: "Хворів на туберкульоз?"
+        ill_syphilis: "Хворів на сифіліс?"
+        ill_mal: "Хворів на малярію?"
+        operation: "Чи переносив операції?"
+        transfusion: "Чи переносив гемотрансфузії?"
+        infection: "Чи мав контакт з інф. хворими?"
+        dermis: "Перебував на обліку по шкірних захворюваннях?"
+        dermis_doctor: "Висновок лікаря-дерматовенеролога"
+        doctor_skin_id: "ПІБ лікаря-дерматовенеролога"
+        pulse: "Пульс"
+        sys_pressure: "верхній тиск"
+        dias_pressure: "нижній тиск"
+        allow_amount: "Дозволена доза для здачі"
+        therapist_doctor: "Висновок лікаря-терапевта"
+        doctor_therapist_id: "ПІБ лікаря-терапевта"
+        defect_cause_id: "Причина відбраковки"
+      isolation:
+        plasm_ag_amount: "АГ Плазма: кількість"
+        plasm_ag_bootle: "АГ Плазма: № флакона"
+        plasm_ag_store: "АГ Плазма: № холодильника"
+        plasm_krio_amount: "Кріо Плазма: кількість"
+        plasm_krio_bootle: "Кріо Плазма: № флакона"
+        plasm_krio_store: "Кріо Плазма: № холодильника"
+        plasm_proc_amount: "Препарати: кількість"
+        plasm_proc_bootle: "Препарати: № флакона"
+        plasm_proc_store: "Препарати: № холодильника"
+        plasm_ac_amount: "АС Плазма: кількість"
+        plasm_ac_bootle: "АС Плазма: № флакона"
+        plasm_ac_store: "АС Плазма: № холодильника"
+        defect_aids: "Брак по: СПІДу"
+        defect_syph: "Брак по: сифілісу"
+        defect_hep_c: "Брак по: Гепатиту С"
+        defect_hep_b: "Брак по: Гепатиту В"
+        wr_defect_date: "Дата списання"
+        rep_exam_date: "Дата повторного обстеження"
+        end_quar_date: "Дата карантинізації"
+        give_dispatch: "Передано на видачу"
+        give_fraction: "Передано на фракції"
+        give_store: "Передано на склад"
+      dictionary:
+        value_name: "Значення"
+      reception:
+        date_reception: "Дата виїзду"
+        village_reception: "Місце виїзду"
+        check_out_reception: "виїзд"
+    errors:
+      messages:
+        inclusion:                "не включено в список"
+        exclusion:                "is reserved"
+        invalid:                  "не правильно"
+        confirmation:             "doesn't match confirmation"
+        accepted:                 "must be accepted"
+        empty:                    "can't be empty"
+        blank:                    "не може бути пустим"
+        too_long:                 "is too long (maximum is {{count}} characters)"
+        too_short:                "is too short (minimum is {{count}} characters)"
+        wrong_length:             "is the wrong length (should be {{count}} characters)"
+        taken:                    "has already been taken"
+        not_a_number:             "не число"
+        greater_than:             "must be greater than {{count}}"
+        greater_than_or_equal_to: "must be greater than or equal to {{count}}"
+        equal_to:                 "must be equal to {{count}}"
+        less_than:                "must be less than {{count}}"
+        less_than_or_equal_to:    "must be less than or equal to {{count}}"
+        odd:                      "must be odd"
+        even:                     "must be even"
+
+  skin:
+    create_link: "Новий пацієнт"
+    create: "Реєстрація нового пацієнта"
+    no_last_name: " Без фамілії"
+    no_first_name: "Без імені"
+  donor:
+    create_link: "Новий донор"
+    create: "Реєстрація нового донора"
+    no_last_name: " Без фамілії"
+    no_first_name: "Без імені"
+    no_blank: "Без донора"
+  donor_documents:
+    no_doc: "Без документа"
+    no_serial_doc: "Без серії"
+    no_number_doc: "Без номера"
+    no_date_doc: "Без дати"
+  donor_defects:
+    no_defect_cause: "Без браку"
+  visit:
+    create_link: "Нова кроводача"
+    create: "Реєстрація нової кроводачі"
+    no_date_donation: "Без дати"
+    no_defect_cause: "Без браку"
+    group_card: "Картка"
+    group_way: "Направлений"
+    group_person: "Персональні дані"
+    group_live: "Проживання"
+    group_work: "Робота"
+    group_registry: "Реєстратор"
+    group_labor: "Лабораторні лослідження"
+    group_inspect: "Обстеження"
+    group_inspect_syphilis: "Обстеження на A50(сифіліс)"
+    group_inspect_hep_c: "Обстеження на B17(гепатит С)"
+    group_inspect_hep_b: "Обстеження на B16(гепатит В)"
+    group_inspect_aids: "Обстеження на R75(СНІД)"
+    group_skin: "Опитування дерматолога"
+    group_therapist: "Опитування терапевта"
+    group_visit: "Кроводача"
+  visitation:
+    create_link: "Новий візит"
+    create: "Реєстрація нового візиту"
+    no_date_donation: "Без дати"
+    group_card: "Картка"
+    group_way: "Направлений"
+    group_person: "Персональні дані"
+    group_live: "Проживання"
+    group_work: "Робота"
+    group_registry: "Реєстратор"
+    group_labor: "Лабораторні лослідження"
+    group_skin: "Опитування дерматолога"
+    group_therapist: "Опитування терапевта"
+  isolation:
+    create_link: "Новий карантин"
+    create: "Реєстрація нового карантину"
+    group_ag: "АГ плазма"
+    group_krio: "Кріо плазма"
+    group_proc: "Переробка"
+    group_ac: "АС плазма"
+    group_defect: "Брак по"
+    group_date: "Дата"
+    group_give: "Куди передано"
+  dictionary:
+    no_value: "Без значення"
+  reception:
+    no_village_reception: "Без місця"
+    no_date_reception: "Без дати"
+
+  date_validation:
+    format: "%Y-%m-%d"
+    error: "неправильний формат дати або пусте поле"
+
+  for_select:
+    gender:
+      man: "чоловік"
+      woman: "жінка"
+    type_village:
+      town: "місто"
+      village: "село"
+    sick:
+      plus: "хворів"
+      minus: "не хворів"
+    having:
+      plus: "переносив"
+      minus: "не переносив"
+    had:
+      plus: "мав"
+      minus: "не мав"
+    was:
+      plus: "перебував"
+      minus: "не перебував"
+    allowed:
+      plus: "допущений"
+      minus: "не допущений"
+    healthy:
+      plus: "здоровий"
+      minus: "хворий"
+    inspect:
+      plus: "позитивне"
+      minus: "негативне"
+      logic_plus: "умовно позитивне"
+    payment:
+      plus: "безоплатно"
+      minus: "платно"
+    type_donation:
+      first: "первинний"
+      first_year: "перший раз в поточному році"
+      repeat: "повторний"
+    verify:
+      verity: "Так"
+      lie: "Ні"
+    defect:
+      plus: "браковано"
+      minus: "не браковано"
+    give:
+      plus: "передано"
+      minus: "не передано"

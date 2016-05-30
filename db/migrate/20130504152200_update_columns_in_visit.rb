@@ -1,0 +1,55 @@
+class UpdateColumnsInVisit < ActiveRecord::Migration
+  def change
+    Visit.where("card_number is null").update_all("card_number = '#{I18n.t("dictionary.no_value")}'")
+    Visit.update_all ['reg_date = ?', Time.now], ['reg_date is ?', nil]
+    Visit.where("code_org is null").update_all("code_org = 21")
+    Visit.where("reception_id is null").update_all("reception_id = 0")
+    Visit.update_all ['visit_date = ?', Time.now], ['visit_date is ?', nil]
+    Visit.where("target_id is null").update_all("target_id = 0")
+    Visit.where("type_payment is null").update_all("type_payment = true")
+    Visit.where("blood_for_id is null").update_all("blood_for_id = 0")
+    Visit.where("blood_group_id is null").update_all("blood_group_id = 0")
+    Visit.where("rh_factor_id is null").update_all("rh_factor_id = 0")
+    Visit.where("donor_name is null").update_all("donor_name = '#{I18n.t("dictionary.no_value")}'")
+    Visit.where("gender is null").update_all("gender = true")
+    Visit.where("age is null").update_all("age = 0")
+    Visit.where("reg_name_id is null").update_all("reg_name_id = 0")
+    Visit.where("control_blood_id is null").update_all("control_blood_id = 0")
+    Visit.where("hbs is null").update_all("hbs = 0")
+    Visit.update_all ['analysis_date = ?', Time.now], ['analysis_date is ?', nil]
+    Visit.where("doctor_test_id is null").update_all("doctor_test_id = 0")
+    Visit.where("ill_hepatitis is null").update_all("ill_hepatitis = false")
+    Visit.where("ill_tb is null").update_all("ill_tb = false")
+    Visit.where("ill_syphilis is null").update_all("ill_syphilis = false")
+    Visit.where("ill_mal is null").update_all("ill_mal = false")
+    Visit.where("operation is null").update_all("operation = false")
+    Visit.where("transfusion is null").update_all("transfusion = false")
+    Visit.where("infection is null").update_all("infection = false")
+    Visit.where("dermis is null").update_all("dermis = false")
+    Visit.where("dermis_doctor is null").update_all("dermis_doctor = true")
+    Visit.where("doctor_skin_id is null").update_all("doctor_skin_id = 0")
+    Visit.where("pulse > 999").update_all("pulse = pulse/100")
+    Visit.where("sys_pressure > 999").update_all("sys_pressure = sys_pressure/100")
+    Visit.where("allow_amount is null").update_all("allow_amount = 0")
+    Visit.where("therapist_doctor is null").update_all("therapist_doctor = true")
+    Visit.where("doctor_therapist_id is null").update_all("doctor_therapist_id = 0")
+    Visit.update_all ['date_donation = ?', Time.now], ['date_donation is ?', nil]
+    Visit.where("doctor_donation_id is null").update_all("doctor_donation_id = 0")
+    Visit.where("donation_mode_id is null").update_all("donation_mode_id = 0")
+    Visit.where("donation_type_id is null").update_all("donation_type_id = 0")
+    Visit.where("amount_probe is null").update_all("amount_probe = 0")
+    Visit.where("amount_dose is null").update_all("amount_dose = 0")
+    Visit.where("type_packing_id is null").update_all("type_packing_id = 0")
+    Visit.where("bottle_number is null").update_all("bottle_number = '#{I18n.t("dictionary.no_value")}'")
+    Visit.where("inspect_bilirubin is null").update_all("inspect_bilirubin = 0")
+    Visit.where("inspect_alt is null").update_all("inspect_alt = 0")
+    Visit.where("inspect_syphilis is null").update_all("inspect_syphilis = false")
+    Visit.update_all ['date_syphilis = ?', Time.now], ['date_syphilis is ?', nil]
+    Visit.where("inspect_hep_c is null").update_all("inspect_hep_c = false")
+    Visit.update_all ['date_hep_c = ?', Time.now], ['date_hep_c is ?', nil]
+    Visit.where("inspect_hep_b is null").update_all("inspect_hep_b = false")
+    Visit.update_all ['date_hep_b = ?', Time.now], ['date_hep_b is ?', nil]
+    Visit.where("inspect_aids is null").update_all("inspect_aids = false")
+    Visit.update_all ['date_aids = ?', Time.now], ['date_aids is ?', nil]
+  end
+end
